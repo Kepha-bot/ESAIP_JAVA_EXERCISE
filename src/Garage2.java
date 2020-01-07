@@ -38,4 +38,10 @@ public class Garage2 {
 		
 		return indice;
 	}
+	
+	public void supprimer(Voiture v) {
+		if(rechercher(v)!=-1) {
+			l.remove(rechercher(v));
+		}
+	}
 }
